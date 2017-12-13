@@ -1,0 +1,347 @@
+
+/*
+Theme Name: Bootstrap Theme
+Author: Travis
+Description: A basic theme using the Bootstrap framework.
+*/
+
+
+@import url('css/bootstrap.min.css');
+
+/* header */
+
+.nav-upper {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: white;
+	text-align: center;
+	border-bottom: 0;
+	margin-bottom: 0;
+}
+
+.icon-text {
+	margin-left: -50px;
+	display: inline;
+	font-size: 18px;
+	font-family: "Lato", sans-serif;
+	font-weight: bold;
+	color: #193875;
+
+}
+
+.home-button:hover, .home-button:active, .home-button:focus {
+	text-decoration: none;
+}
+
+@media (min-width: 768px) {
+	.phone {
+		float: right;
+	}
+	.icon {
+		float: left;
+	}
+	.icon-text {
+		float: left;
+	}
+}
+
+.navbar {
+	margin-bottom: 0;
+}
+
+.nav-lower {
+	background-color: #1f9ac9;
+	opacity: 0.7;
+}
+
+.menu-item a  {
+	color: white;
+}
+
+.nav>li>a:hover,.nav>li>a:focus,.nav>li>a:active  {
+	text-decoration: none;
+	background-color: #1f9ac9;
+	color: white;
+}
+
+.bill-button {
+	padding: 5px 15px;
+	background-color: white;
+	border-radius: 7px;
+	color: #1f9ac9;
+	margin-top: 10px;
+	float: left;
+	margin-bottom: 10px;
+}
+
+.bill-button:hover, .bill-button:active, .bill-button:focus {
+	text-decoration: none;
+}
+
+@media (min-width: 768px) {
+	.bill-button {
+		float: right;
+	}
+}
+
+.menu-toggle {
+	float: left;
+}
+
+.navbar-toggle {
+	color: white;
+	font-size: 20px;
+	margin: 0;
+	padding: 10px 0 0 0;
+}
+
+.navbar-toggle>.menu-header-menu-container {
+	clear: both;
+}
+
+/* footer */
+
+.navbar-fixed-bottom {
+	background-color: #193875;
+	position: relative;
+	border: 0;
+}
+
+.footer-div {
+	clear: both;
+	display: inline-block;
+	padding-top: 20px;
+}
+
+@media (min-width: 768px) {
+	.footer-div {
+		clear: inherit;
+	}
+}
+
+.footer-div h4 {
+	color: #1f9ac9;
+	font-family: "Open Sans", sans-serif;
+}
+
+.footer-div a, .footer-div p, .footer-div span {
+	color: #cddef1;
+	text-decoration: none;
+	float: left;
+	clear: both;
+}
+
+.quick-links {
+	list-style: none;
+	padding: 0;
+}
+
+.address-footer {
+	background: url(http://localhost/urbandale-water/wp-content/uploads/2017/12/address-icon.png) no-repeat left top;
+	padding-left: 20px;
+	padding-bottom: 15px;
+	background-position: 0px 5px;
+}
+
+.phone-footer {
+	background: url(http://localhost/urbandale-water/wp-content/uploads/2017/12/phone-icon.png) no-repeat left top;
+	padding-left: 20px;
+	background-position: 0px 5px;
+}
+
+.email-footer {
+	background: url(http://localhost/urbandale-water/wp-content/uploads/2017/12/email-icon.png) no-repeat left top;
+	padding-left: 20px;
+	padding-bottom: 15px;
+	background-position: 0px 5px;
+}
+
+.mini-boarder {
+	width: 100%;
+	border-bottom: solid 1px #1f9ac9;
+	margin: 5px 0px;
+}
+
+@media (min-width: 768px) {
+	.mini-boarder {
+		display: none;
+	}
+}
+
+.top-border {
+	border-top: solid 1px #1f9ac9;
+}
+
+
+.footer-left, .footer-right {
+	text-align: center;
+	color: #cddef1;
+	padding: 5px 0;
+}
+
+@media (min-width: 768px) {
+	.footer-right {
+		float: right;
+	}
+	.footer-left {
+		float: left;
+	}
+}
+
+/* home page */
+
+.main-water-front {
+	width: 100%;
+	z-index: 1;
+}
+
+.main-water-front img {
+	vertical-align: middle;
+	max-width: 100%;
+	position: relative;
+}
+
+@media (min-width: 768px) {
+	.main-water-front, .main-water-front img {
+		margin-top: -100px;
+	}
+}
+
+@media (min-width: 992px) {
+	.main-water-front, .main-water-front img {
+		margin-top: -50px;
+	}
+}
+
+.watertower-container {
+	width: 100%
+	z-index:-1;
+}
+
+.watertower-color-container {
+	width: 100%;
+	background-color: #1f9ac9;
+	opacity: 0.7;
+	padding: 50px 0;
+}
+
+.watertower-container h3, .watertower-container p {
+	color: white;
+}
+
+.services-div {
+	padding: 50px 0px;
+}
+
+.services-div h3, .projects-div h3, .projects-div h4 {
+	color: #1c3b77;
+}
+
+.services-div p, .projects-div p {
+	color: #777777;
+}
+
+.direct-pay-div {
+	text-align: center;
+}
+
+.direct-pay-div img {
+	margin: 20px 0;
+	width: 100px;
+}
+
+.direct-pay-div a {
+	background-color: #1f9ac9;
+	padding: 5px 15px;
+	border-radius: 5px;
+	color: white;
+}
+
+.direct-pay-div a:hover, .direct-pay-div a:active, .direct-pay-div a:focus {
+	text-decoration: none;
+}
+
+.project img {
+	object-fit: cover;
+	width: 100%;
+}
+
+@media (min-width: 768px) {
+	.watertower-container {
+		background: url("http://localhost/urbandale-water/wp-content/uploads/2017/12/watertower-cloudless-1.png") no-repeat right;
+		background-size: contain;
+	}
+	.watertower-color-container {
+		padding: 100px 0;
+	}
+	.services-div {
+		padding: 75px 0;
+	}
+}
+
+.page-title {
+	background-color: #193875;
+	width: 100%;
+	padding: 40px 0;
+}
+
+.page-title h1 {
+	margin: 0;
+	color: white;
+	font-family: "Lato", sans-serif;
+	font-weight: bold;
+
+}
+
+.static-page-content {
+	margin-bottom: 100px;
+}
+
+.side-menu {
+	float: right;
+	color: white;
+	background-color: #81b5d6;
+	width: 100%;
+	position: relative;
+}
+
+@media (min-width: 768px) {
+	.side-menu {
+		position: absolute;
+	}
+}
+
+.side-menu ul {
+	list-style: none;
+	width: 100%;
+	padding: 0;
+}
+
+.side-menu a {
+	padding: 10px 0 10px 35px;
+	display: block;
+}
+
+.side-menu h4 {
+	background: linear-gradient(90deg, #9be0f9 5px, #81b5d6 5px);
+	padding: 10px 0 10px 15px;
+	font-family: "Lato", sans-serif;
+	font-weight: bold;
+	margin: 0;
+}
+
+.side-menu a {
+	color: white;
+}
+
+.side-menu a:hover, .side-menu a:focus, .side-menu a:active {
+	text-decoration: none;
+}
+
+.bottom-border {
+	display: block;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	border-bottom: solid 1px #9be0f9;
+}
