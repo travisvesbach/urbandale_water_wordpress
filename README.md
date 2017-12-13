@@ -14,7 +14,6 @@ The goal of the theme was to use Bootstrap for the layout and responsive design.
 
 Urbandale Water was made based off of a few screenshots and photoshop files of the actual site made by <a href="https://www.webspecdesign.com/">Webspec Design</a>.
 
-The pages on this site that are viewable are the homepage and Customer Service page.
 
 ## Deployment
 
@@ -28,5 +27,5 @@ Once Wordpress was deployed to Heroku, I exported my development site through my
 
 It can be viewed at http://tranquil-badlands-43021.herokuapp.com/
 
-Again, just the homepage and customer service pages are viewable.  
+ 
 
