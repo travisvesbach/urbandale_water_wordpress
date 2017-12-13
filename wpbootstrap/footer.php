@@ -50,17 +50,15 @@
                 </div>
             </div>
             <div class="container top-border">
-                <div class="col-sm-12">
-                    <div class="col-sm-6 col-xs-12">
-                        <p class="footer-left">
-                            &#9400; 2015 Urbandale Water Utility
-                        </p>
-                    </div>
-                    <div class="col-sm-6 col-xs-12">
-                        <p class="footer-right">
-                            Iowa Web Design by Webspec Design
-                        </p>
-                    </div>
+                <div class="col-sm-6 col-xs-12">
+                    <p class="footer-left">
+                        &#9400; 2015 Urbandale Water Utility
+                    </p>
+                </div>
+                <div class="col-sm-6 col-xs-12">
+                    <p class="footer-right">
+                        Iowa Web Design by Webspec Design
+                    </p>
                 </div>
             </div>
 
