@@ -10,7 +10,7 @@ The actual content for the individual pages was entered within the Wordpress das
 
 ## Build 
 
-The goal of the theme was to use Bootstrap for the layout and responsive design.  The site is static in that posts and articles can't be made, etc.
+The goal of the theme was to use Bootstrap for the layout and responsive design.  
 
 Urbandale Water was made based off of a few screenshots and photoshop files of the actual site made by <a href="https://www.webspecdesign.com/">Webspec Design</a>.
 
@@ -28,4 +28,3 @@ Once Wordpress was deployed to Heroku, I exported my development site through my
 It can be viewed at http://tranquil-badlands-43021.herokuapp.com/
 
  
-
