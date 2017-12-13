@@ -14,7 +14,7 @@
         <div class="container">
             <div class="col-sm-6 col-xs-12">
                 <a class="home-button" href="<?php echo esc_url( home_url( '/' ) ); ?>">
-                    <img src="http://localhost/urbandale-water/wp-content/uploads/2017/12/u-icon.png" class="icon">
+                    <img src="http://tranquil-badlands-43021.herokuapp.com/wp-content/uploads/2017/12/u-icon.png" class="icon">
                     <p class="navbar-text icon-text">Urbandale Water Utility</p>
                 </a>
             </div>

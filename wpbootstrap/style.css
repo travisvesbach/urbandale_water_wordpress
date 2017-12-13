@@ -137,20 +137,20 @@ Description: A basic theme using the Bootstrap framework.
 }
 
 .address-footer {
-	background: url(http://localhost/urbandale-water/wp-content/uploads/2017/12/address-icon.png) no-repeat left top;
+	background: url(http://tranquil-badlands-43021.herokuapp.com/wp-content/uploads/2017/12/address-icon.png) no-repeat left top;
 	padding-left: 20px;
 	padding-bottom: 15px;
 	background-position: 0px 5px;
 }
 
 .phone-footer {
-	background: url(http://localhost/urbandale-water/wp-content/uploads/2017/12/phone-icon.png) no-repeat left top;
+	background: url(http://tranquil-badlands-43021.herokuapp.com/wp-content/uploads/2017/12/phone-icon.png) no-repeat left top;
 	padding-left: 20px;
 	background-position: 0px 5px;
 }
 
 .email-footer {
-	background: url(http://localhost/urbandale-water/wp-content/uploads/2017/12/email-icon.png) no-repeat left top;
+	background: url(http://tranquil-badlands-43021.herokuapp.com/wp-content/uploads/2017/12/email-icon.png) no-repeat left top;
 	padding-left: 20px;
 	padding-bottom: 15px;
 	background-position: 0px 5px;
@@ -268,7 +268,7 @@ Description: A basic theme using the Bootstrap framework.
 
 @media (min-width: 768px) {
 	.watertower-container {
-		background: url("http://localhost/urbandale-water/wp-content/uploads/2017/12/watertower-cloudless-1.png") no-repeat right;
+		background: url("http://tranquil-badlands-43021.herokuapp.com/wp-content/uploads/2017/12/watertower-cloudless-1.png") no-repeat right;
 		background-size: contain;
 	}
 	.watertower-color-container {
