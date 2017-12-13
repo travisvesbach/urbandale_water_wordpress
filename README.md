@@ -8,7 +8,7 @@ Uploaded here is my custom wordpress bootstrap theme folder.  It includes all th
 
 The actual content for the individual pages was entered within the Wordpress dashboard.
 
-## build 
+## Build 
 
 The goal of the theme was to use Bootstrap for the layout and responsive design.  The site is static in that posts and articles can't be made, etc.
 
